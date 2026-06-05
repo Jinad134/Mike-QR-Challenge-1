@@ -1,0 +1,55 @@
+
+/* Color Styles */
+:root {
+
+    --color-primary: #3684FE;
+    --color-background-0: #F0F0F0;
+    --color-background-1: #D5E1EF;
+    --color-white: #FFFFFF;
+    --color-black: #162134;
+    --color-gray: #848388;
+}
+
+/* Typography Styles */
+:root { 
+
+    /* Font Family */
+    --font-family: 'roboto', sans-serif;
+
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-SemiBold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    /* Mobile Heading */
+    --font-size-mb-h1: 26px;
+    --line-height-mb-h1: 1.5;
+
+    /* Desktop Heading */
+    --font-size-dk-h1: 48px;
+    --line-height-dk-h1: 1.5;
+
+    /* Body Text */
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+}
+
+body{
+
+    /* Forcing the body to take up the full viewport height */
+    margin: 0;
+    min-height: 100vh;
+
+    /* Body background design */
+    background: 
+    url("images/Dots.png") no-repeat left -10px center / 40px,
+    url("images/Lshape.png") no-repeat right 40% top / 40px,
+    url("images/Mshape.png") no-repeat top 30% right -18px / 100px,
+    url("images/Slash.png") no-repeat bottom left 20% / 100px,
+    url("images/Circle.png") no-repeat bottom -6% right -1% / 250px,
+    var(--color-background-0);
+    
+}
