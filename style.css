@@ -63,8 +63,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 16px;
-    margin: 56px 56px;
-    min-height: 85vh;
+    margin: 56px 24px;
+    height: 85vh;
+    max-height: 600px;
 }
 
 .card-wrapper { /* White card */
